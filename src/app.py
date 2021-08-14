@@ -5,7 +5,7 @@ from flask_marshmallow import Marshmallow
 
 app = Flask(__name__)
 #conexion
-app.config["SQLALCHEMY_DATABASE_URI"]='mysql+pymysql://root:43454345@localhost:3306/flaskmysql'
+app.config["SQLALCHEMY_DATABASE_URI"]='mysql+pymysql://root:hereyourpasswd@localhost:3306/flaskmysql'
 #config para evitar warnings a futuro
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"]=False
 #pasar configuracion de app al orm
